@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "network": {
+    "name": "Monad Testnet",
+    "chainId": 10143
+  },
+  "contract": {
+    "name": "HexBountyPaidPlay",
+    "address": "0xef61C98BE27E1381cB7188975F8D7e938d1a0E64",
+    "deployer": "0xEB155dc01Be246C2C0fd9d6a96BB359894865981",
+    "escrow": "0xc3F9fb30d87CFf804F394C680Ed7856B055F7c96",
+    "feeRecipient": "0xEB155dc01Be246C2C0fd9d6a96BB359894865981",
+    "platformFeeBps": 250,
+    "deploymentTransaction": "0x07ad324122f56daa095fc90db256c1ae6a57251994245a5f1a29d1bd7111d04e",
+    "blockNumber": 54204437,
+    "gasLimit": "1274200",
+    "gasUsed": "1274200",
+    "effectiveGasPriceWei": "102000000000",
+    "costWei": "129968400000000000",
+    "runtimeCodeBytes": 5452
+  },
+  "verification": {
+    "provider": "MonadVision Sourcify",
+    "status": "exact_match",
+    "creationMatch": "exact_match",
+    "runtimeMatch": "exact_match",
+    "verifiedAt": "2026-08-16T10:59:57Z",
+    "matchId": "1032249",
+    "verificationId": "b972891e-7a5e-4794-90dc-07f5a8e35149"
+  },
+  "explorers": {
+    "contract": "https://testnet.monadscan.com/address/0xef61C98BE27E1381cB7188975F8D7e938d1a0E64",
+    "transaction": "https://testnet.monadscan.com/tx/0x07ad324122f56daa095fc90db256c1ae6a57251994245a5f1a29d1bd7111d04e",
+    "verifiedSource": "https://sourcify-api-monad.blockvision.org/v2/contract/10143/0xef61C98BE27E1381cB7188975F8D7e938d1a0E64"
+  }
+}

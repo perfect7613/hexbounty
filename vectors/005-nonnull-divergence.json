@@ -1,0 +1,38 @@
+{
+  "schema": "hexbounty-evidence/v1",
+  "programId": "program-tetris-7c9e2a",
+  "sourceCommit": "8b1f45a09d2c",
+  "binarySha256": "6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f",
+  "sourceSha256": "a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2",
+  "artifactSha256": "3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d",
+  "tools": [
+    "Ghidra",
+    "PyGhidra",
+    "SameBoy",
+    "CompareBoy",
+    "GBDK"
+  ],
+  "agent": {
+    "orchestrator": "codex-modal",
+    "engine": "codex",
+    "runIdHash": "0x9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a9a",
+    "passes": 2,
+    "status": "complete"
+  },
+  "staticAnalysis": {
+    "functionCount": 143,
+    "annotatedFunctions": 97,
+    "evidenceRecords": 286
+  },
+  "dynamicComparison": {
+    "script": "opening-and-level-one",
+    "framesCompared": 21600,
+    "firstDivergence": 1729,
+    "summary": "Behavioral comparison, not formal equivalence"
+  },
+  "artifacts": {
+    "liveURL": "https://demo.hexbounty.example/play",
+    "sourceURL": "https://demo.hexbounty.example/source",
+    "reportURL": "https://demo.hexbounty.example/report"
+  }
+}

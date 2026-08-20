@@ -1,0 +1,79 @@
+# --- Secrets. Never commit. ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+.secrets/
+
+# --- Local project notes ---
+/docs/
+/.firecrawl/
+
+# --- Node ---
+node_modules/
+.next/
+out/
+build/
+dist/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vercel/
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Solidity / Hardhat ---
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/types/
+contracts/ignition/deployments/
+
+# --- Reconstruction pipeline ---
+# Retired curated demo evidence must not be recommitted.
+/artifacts/breakout/
+# Tool distributions are installed by the operator, never vendored.
+ghidra/
+ghidra_*/
+*.gpr
+*.rep/
+# Working directories and run output.
+work/
+output/
+workspaces/
+pipeline/jobs/*
+!pipeline/jobs/.gitkeep
+*.log
+logs/
+
+# --- Binaries of unestablished licensing ---
+# Evidence and reports are ours to commit; reference binaries are not.
+*.gb
+*.gbc
+*.rom
+*.bin
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Filesystem conflict copies are never source inputs.
+* [0-9].*
+* [0-9]
+**/* [0-9].*
+**/* [0-9]

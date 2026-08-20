@@ -1,0 +1,30 @@
+{
+  "name": "@hexbounty/evidence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic sorted-key JSON and Keccak-256 hashing for HexBounty evidence",
+  "exports": {
+    ".": {
+      "types": "./dist/canonical.d.ts",
+      "import": "./dist/canonical.js"
+    }
+  },
+  "bin": {
+    "hexbounty-evidence-js": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "hash": "npm run build --silent && node dist/cli.js hash"
+  },
+  "dependencies": {
+    "canonicalize": "4.0.0",
+    "viem": "2.55.16"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  }
+}

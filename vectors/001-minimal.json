@@ -1,0 +1,38 @@
+{
+  "schema": "hexbounty-evidence/v1",
+  "programId": "p",
+  "sourceCommit": "c",
+  "binarySha256": "b",
+  "sourceSha256": "s",
+  "artifactSha256": "a",
+  "tools": [
+    "Ghidra",
+    "PyGhidra",
+    "SameBoy",
+    "CompareBoy",
+    "GBDK"
+  ],
+  "agent": {
+    "orchestrator": "codex-modal",
+    "engine": "codex",
+    "runIdHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "passes": 0,
+    "status": "complete"
+  },
+  "staticAnalysis": {
+    "functionCount": 0,
+    "annotatedFunctions": 0,
+    "evidenceRecords": 0
+  },
+  "dynamicComparison": {
+    "script": "d",
+    "framesCompared": 0,
+    "firstDivergence": null,
+    "summary": ""
+  },
+  "artifacts": {
+    "liveURL": "https://x",
+    "sourceURL": "https://y",
+    "reportURL": "https://z"
+  }
+}

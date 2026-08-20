@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "network": {
+    "name": "Monad Testnet",
+    "chainId": 10143
+  },
+  "contract": {
+    "name": "HexBountyEscrow",
+    "address": "0xc3F9fb30d87CFf804F394C680Ed7856B055F7c96",
+    "deployer": "0xEB155dc01Be246C2C0fd9d6a96BB359894865981",
+    "feeRecipient": "0xEB155dc01Be246C2C0fd9d6a96BB359894865981",
+    "deploymentTransaction": "0xeb89ef8a2204dda71e3c8f7139372678a4aa30a933f4158ccada5ea4c9fd4624",
+    "blockNumber": 54183176,
+    "gasLimit": "1359546",
+    "gasUsed": "1359546",
+    "effectiveGasPriceWei": "102000000000",
+    "costWei": "138673692000000000"
+  },
+  "verification": {
+    "provider": "MonadVision Sourcify",
+    "status": "exact_match",
+    "creationMatch": "exact_match",
+    "runtimeMatch": "exact_match",
+    "verifiedAt": "2026-08-16T09:14:00Z",
+    "matchId": "1026867",
+    "verificationId": "f54c3cf1-3494-4b6d-86b9-ad7f874f848a"
+  },
+  "explorers": {
+    "contract": "https://testnet.monadscan.com/address/0xc3F9fb30d87CFf804F394C680Ed7856B055F7c96",
+    "transaction": "https://testnet.monadscan.com/tx/0xeb89ef8a2204dda71e3c8f7139372678a4aa30a933f4158ccada5ea4c9fd4624",
+    "verifiedSource": "https://sourcify-api-monad.blockvision.org/v2/contract/10143/0xc3F9fb30d87CFf804F394C680Ed7856B055F7c96"
+  }
+}

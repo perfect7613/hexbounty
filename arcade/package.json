@@ -1,0 +1,50 @@
+{
+  "name": "hexbounty-arcade",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HexBounty public marketplace and evidence lab — Monad Testnet, MetaMask only.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@metamask/connect-evm": "^2.1.1",
+    "@radix-ui/react-dialog": "1.1.15",
+    "@radix-ui/react-slot": "1.2.3",
+    "@tanstack/react-query": "5.90.2",
+    "@uploadthing/react": "^7.3.3",
+    "canonicalize": "4.0.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "gameboy-emulator": "1.1.2",
+    "lucide-react": "0.544.0",
+    "next": "16.3.1",
+    "pixel-retroui": "2.1.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "tailwind-merge": "3.3.1",
+    "uploadthing": "^7.7.4",
+    "viem": "2.55.16",
+    "wagmi": "^3.6.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.4.21",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.3.1",
+    "postcss": "8.5.26",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  },
+  "overrides": {
+    "effect": "3.22.1"
+  }
+}

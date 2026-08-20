@@ -1,0 +1,32 @@
+{
+  "schema": "hexbounty-evidence/v1",
+  "programId": "program-7f3a1c9e",
+  "sourceCommit": "0000000000000000000000000000000000000000",
+  "binarySha256": "3a7bd3e2360a3d29eea436fcfb7e44c735d117c42d1c1835420b6b9942dd4f1b",
+  "sourceSha256": "9f2fcc7c90de090d6b87cd7e9718c1ea6cb21118fc2d5de9f97e5db6ac1e9c10",
+  "artifactSha256": "5c62e091b8c0565f1bafad0dad5934276143ae2ccef7a5381e8ada5b1a8d26d2",
+  "tools": ["Ghidra", "PyGhidra", "SameBoy", "CompareBoy", "GBDK"],
+  "agent": {
+    "orchestrator": "codex-modal",
+    "engine": "codex",
+    "runIdHash": "0xb5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c",
+    "passes": 2,
+    "status": "complete"
+  },
+  "staticAnalysis": {
+    "functionCount": 0,
+    "annotatedFunctions": 0,
+    "evidenceRecords": 0
+  },
+  "dynamicComparison": {
+    "script": "demo-script",
+    "framesCompared": 0,
+    "firstDivergence": null,
+    "summary": "Behavioral comparison, not formal equivalence"
+  },
+  "artifacts": {
+    "liveURL": "https://example.invalid/play",
+    "sourceURL": "https://example.invalid/source",
+    "reportURL": "https://example.invalid/report"
+  }
+}
